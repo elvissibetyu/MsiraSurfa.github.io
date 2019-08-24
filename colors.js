@@ -102,7 +102,7 @@ modal = document.getElementById("myModal");
 
 btnagree.onclick = function(){
     modal.style.display = "none";
-    document.getElementById("itemsInCart").innerHTML = quantity_amount;
+    if(quantity_amount>0){document.getElementById("itemsInCart").innerHTML = quantity_amount;}
     document.getElementById("addToCart").innerHTML = "(" + quantity_amount + ") Check out now."
 }
 btncancel.onclick = function(){
