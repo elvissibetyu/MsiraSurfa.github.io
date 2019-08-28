@@ -119,7 +119,7 @@ li{
     left: 0;
     top: 0;
     
-    width: 600px; /* Full width */
+    width: device-width; /* Full width */
     height: 600px; /* Full height */
     overflow-y: auto;
     overflow-x: auto; /* Enable scroll if needed */
