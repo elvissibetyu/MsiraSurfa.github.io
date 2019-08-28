@@ -9,12 +9,19 @@ window.onload = function(){
         items[x].onclick = function(){
             if(x == 0){
                 document.getElementById("colorName").innerHTML = "Electric Red";
+                items[x].style.border = "solid";
+                items[x].style.borderWidth = "2px";
+                items[x].style.borderColor = "white";
+                items[x].style.boxShadow = "0 0 3px grey"
             }
             else if(x == 1){
                 document.getElementById("colorName").innerHTML = "Light Purple";
+                items[x].style.outline = "solid blue 2px";
+                
             }
             else if(x == 2){
                 document.getElementById("colorName").innerHTML = "Black Black";
+                document.getElementById("colorName").style.borderColor = "grey";
             }
             else if(x == 3){
                 document.getElementById("colorName").innerHTML = "White white";

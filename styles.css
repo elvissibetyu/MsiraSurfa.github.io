@@ -58,6 +58,10 @@ li{
     border-radius: 50%;
     display: inline-block;
     margin-right: 10px;
+    border-block-color: #fff;
+  }
+.dot:visited{
+    box-shadow: 0 0 3px red;
   }
   .size{
       font-size: 12px;
