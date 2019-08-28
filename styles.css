@@ -149,7 +149,46 @@ li{
     border: 1px solid #888;
     width: 80%;
   }
-
+@media (max-width:768px){
+  .modal-content button{ 
+    border-radius: 50%;
+    float: left;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+  }
+}
+@media (min-width:768px){
+  .modal-content button{ 
+    border-radius: 50%;
+    float: left;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+  }
+}
+@media (max-width:992px){
+  .modal-content button{ 
+    border-radius: 50%;
+    float: left;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+  }
+}
+@media (min-width:1200px){
   .modal-content button{ 
     border-radius: 50%;
     float: left;
@@ -160,7 +199,9 @@ li{
     width: 100px;
     height: 100px;
     margin-right: 20px;
+  }
 }
+
 
   .modal-content h2{
     float: left;
